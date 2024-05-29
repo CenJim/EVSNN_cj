@@ -1,0 +1,4 @@
+/home/s2491540/Pythonproj/EVSNN_cj/rec_snn.py:43: FutureWarning: The 'delim_whitespace' keyword in pd.read_csv is deprecated and will be removed in a future version. Use ``sep='\s+'`` instead
+  event_tensor_iterator = pd.read_csv(event_files, delim_whitespace=True, header=None, names=['t', 'x', 'y', 'pol'],
+load pre-trained model "./pretrained_models/EVSNN.pth"
+Processing: 0.Processing: 5.Processing: 10.Processing: 15.Processing: 20.Processing: 25.Processing: 30.Processing: 35.Processing: 40.Processing: 45.Processing: 50.Processing: 55.Processing: 60.Processing: 65.Processing: 70.Processing: 75.Processing: 80.Processing: 85.Processing: 90.Processing: 95.Processing: 100.Processing: 105.Processing: 110.Processing: 115.
