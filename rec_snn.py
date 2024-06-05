@@ -7,6 +7,7 @@ from utils.util import events_to_voxel_grid, normalize_image, CropParameters, Ti
 from model.snn_network import EVSNN_LIF_final, PAEVSNN_LIF_AMPLIF_final
 import argparse
 import pandas as pd
+from utils.load_hdf import get_dataset
 
 torch.backends.cudnn.benchmark = True
 _seed_ = 2020
@@ -40,10 +41,11 @@ def main(model_name:str, pretrain_models:str, event_files:str, save_path:str, he
         os.mkdir(savepath)  
     
     N = int(height*width*num_events_per_pixel)
-    event_tensor_iterator = pd.read_csv(event_files, delim_whitespace=True, header=None, names=['t', 'x', 'y', 'pol'],
-                                    dtype={'t': np.float64, 'x': np.int16, 'y': np.int16, 'pol': np.int16},
-                                    engine='c',
-                                    skiprows=10, chunksize=N, nrows=None)
+    # event_tensor_iterator = pd.read_csv(event_files, delim_whitespace=True, header=None, names=['t', 'x', 'y', 'pol'],
+    #                                 dtype={'t': np.float64, 'x': np.int16, 'y': np.int16, 'pol': np.int16},
+    #                                 engine='c',
+    #                                 skiprows=10, chunksize=N, nrows=None)
+    event_tensor_iterator = get_dataset(event_files, 640, 480, 0.5)
 
     out_pattern_img = 'result-idx{:04d}{:04d}.bmp'
     states = None
@@ -51,7 +53,11 @@ def main(model_name:str, pretrain_models:str, event_files:str, save_path:str, he
     j = 0
     num_bins = 5
     for event in event_tensor_iterator:
-        event_tensor = events_to_voxel_grid(event.values,
+        # event_tensor = events_to_voxel_grid(event.values,
+        #                                     num_bins=num_bins,
+        #                                     width=width,
+        #                                     height=height)
+        event_tensor = events_to_voxel_grid(event,
                                             num_bins=num_bins,
                                             width=width,
                                             height=height)
