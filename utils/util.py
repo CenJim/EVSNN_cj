@@ -9,7 +9,7 @@ import math
 from PIL import Image
 from math import ceil, floor
 from torch.nn import ZeroPad2d
-from representations import VoxelGrid
+from utils.representations import VoxelGrid
 
 class Timer:
     def __init__(self, msg='Time elapsed'):
