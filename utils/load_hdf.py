@@ -9,15 +9,6 @@ def chunk_2d_array(array, chunk_size):
             chunked_array.append(array[i:i+chunk_size, :])
     return chunked_array
 
-def rectify_events(self, x: np.ndarray, y: np.ndarray, location: str, rectify_ev_maps):
-        assert location in self.locations
-        # From distorted to undistorted
-        rectify_map = rectify_ev_maps[location]
-        assert rectify_map.shape == (self.height, self.width, 2), rectify_map.shape
-        assert x.max() < self.width
-        assert y.max() < self.height
-        return rectify_map[y, x]
-
 def get_dataset(file_path, width, height, num_events_per_pixel):
     # open HDF5 file
     with h5py.File(file_path + 'events.h5', 'r') as f:

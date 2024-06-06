@@ -9,6 +9,7 @@ import math
 from PIL import Image
 from math import ceil, floor
 from torch.nn import ZeroPad2d
+from representations import VoxelGrid
 
 class Timer:
     def __init__(self, msg='Time elapsed'):
@@ -74,6 +75,18 @@ def events_to_voxel_grid(events, num_bins, width, height):
     voxel_grid = np.reshape(voxel_grid, (num_bins, height, width))
 
     return voxel_grid
+
+def events_to_voxel_grid_new(x, y, p, t, voxel_grid: VoxelGrid, device: str='cpu'):
+        t = (t - t[0]).astype('float32')
+        t = (t/t[-1])
+        x = x.astype('float32')
+        y = y.astype('float32')
+        pol = p.astype('float32')
+        return voxel_grid.convert(
+                torch.from_numpy(x),
+                torch.from_numpy(y),
+                torch.from_numpy(pol),
+                torch.from_numpy(t))
 
 def optimal_crop_size(max_size, max_subsample_factor, safety_margin=0):
     """ Find the optimal crop size for a given max_size and subsample_factor.

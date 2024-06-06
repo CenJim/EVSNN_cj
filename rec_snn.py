@@ -8,6 +8,8 @@ from model.snn_network import EVSNN_LIF_final, PAEVSNN_LIF_AMPLIF_final
 import argparse
 import pandas as pd
 from utils.load_hdf import get_dataset
+from utils.representations import VoxelGrid
+from utils.util import events_to_voxel_grid_new
 
 torch.backends.cudnn.benchmark = True
 _seed_ = 2020
@@ -52,16 +54,18 @@ def main(model_name:str, pretrain_models:str, event_files:str, save_path:str, he
     i = 0
     j = 0
     num_bins = 5
+    voxel_grid = VoxelGrid(num_bins, height, width, False)
     for event in event_tensor_iterator:
         # event_tensor = events_to_voxel_grid(event.values,
         #                                     num_bins=num_bins,
         #                                     width=width,
         #                                     height=height)
-        event_tensor = events_to_voxel_grid(event,
-                                            num_bins=num_bins,
-                                            width=width,
-                                            height=height)
-        event_tensor = torch.from_numpy(event_tensor)
+        # event_tensor = events_to_voxel_grid(event,
+        #                                     num_bins=num_bins,
+        #                                     width=width,
+        #                                     height=height)
+        # event_tensor = torch.from_numpy(event_tensor)
+        event_tensor = events_to_voxel_grid_new(event[:, 1], event[:, 2], event[:, 3], event[:, 0], voxel_grid, 'gpu')
         
         event_tensor = event_tensor[np.newaxis,:,:,:].to(device)
         event_tensor = crop.pad(event_tensor)
