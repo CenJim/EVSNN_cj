@@ -1,0 +1,1363 @@
+load pre-trained model "./pretrained_models/EVSNN.pth"
+Will use fixed duration event windows of size 44.00 ms
+Output frame rate: 22.7 Hz
+Reading event window from file: 0.0050s
+Processing: 0.Reading event window from file: 0.0139s
+Processing: 5.Reading event window from file: 0.0072s
+Processing: 10.Reading event window from file: 0.0051s
+Processing: 15.Reading event window from file: 0.0044s
+Processing: 20.Reading event window from file: 0.0104s
+Processing: 25.Reading event window from file: 0.0060s
+Processing: 30.Reading event window from file: 0.0288s
+Processing: 35.Reading event window from file: 0.0047s
+Processing: 40.Reading event window from file: 0.0120s
+Processing: 45.Reading event window from file: 0.0082s
+Processing: 50.Reading event window from file: 0.0205s
+Processing: 55.Reading event window from file: 0.0165s
+Processing: 60.Reading event window from file: 0.0253s
+Processing: 65.Reading event window from file: 0.0668s
+Processing: 70.Reading event window from file: 0.0329s
+Processing: 75.Reading event window from file: 0.0684s
+Processing: 80.Reading event window from file: 0.0661s
+Processing: 85.Reading event window from file: 0.0462s
+Processing: 90.Reading event window from file: 0.0425s
+Processing: 95.Reading event window from file: 0.0432s
+Processing: 100.Reading event window from file: 0.0681s
+Processing: 105.Reading event window from file: 0.0536s
+Processing: 110.Reading event window from file: 0.0410s
+Processing: 115.Reading event window from file: 0.0719s
+Processing: 120.Reading event window from file: 0.0359s
+Processing: 125.Reading event window from file: 0.0327s
+Processing: 130.Reading event window from file: 0.0503s
+Processing: 135.Reading event window from file: 0.0594s
+Processing: 140.Reading event window from file: 0.0456s
+Processing: 145.Reading event window from file: 0.0584s
+Processing: 150.Reading event window from file: 0.0781s
+Processing: 155.Reading event window from file: 0.0465s
+Processing: 160.Reading event window from file: 0.0526s
+Processing: 165.Reading event window from file: 0.0696s
+Processing: 170.Reading event window from file: 0.0493s
+Processing: 175.Reading event window from file: 0.0514s
+Processing: 180.Reading event window from file: 0.0932s
+Processing: 185.Reading event window from file: 0.0426s
+Processing: 190.Reading event window from file: 0.0422s
+Processing: 195.Reading event window from file: 0.0403s
+Processing: 200.Reading event window from file: 0.0619s
+Processing: 205.Reading event window from file: 0.0432s
+Processing: 210.Reading event window from file: 0.0416s
+Processing: 215.Reading event window from file: 0.0738s
+Processing: 220.Reading event window from file: 0.0483s
+Processing: 225.Reading event window from file: 0.0477s
+Processing: 230.Reading event window from file: 0.0869s
+Processing: 235.Reading event window from file: 0.0555s
+Processing: 240.Reading event window from file: 0.0826s
+Processing: 245.Reading event window from file: 0.0521s
+Processing: 250.Reading event window from file: 0.0549s
+Processing: 255.Reading event window from file: 0.0853s
+Processing: 260.Reading event window from file: 0.0579s
+Processing: 265.Reading event window from file: 0.0926s
+Processing: 270.Reading event window from file: 0.0526s
+Processing: 275.Reading event window from file: 0.0472s
+Processing: 280.Reading event window from file: 0.0215s
+Processing: 285.Reading event window from file: 0.0217s
+Processing: 290.Reading event window from file: 0.0293s
+Processing: 295.Reading event window from file: 0.0183s
+Processing: 300.Reading event window from file: 0.0304s
+Processing: 305.Reading event window from file: 0.0404s
+Processing: 310.Reading event window from file: 0.0536s
+Processing: 315.Reading event window from file: 0.0800s
+Processing: 320.Reading event window from file: 0.0611s
+Processing: 325.Reading event window from file: 0.1005s
+Processing: 330.Reading event window from file: 0.0720s
+Processing: 335.Reading event window from file: 0.1070s
+Processing: 340.Reading event window from file: 0.0751s
+Processing: 345.Reading event window from file: 0.1168s
+Processing: 350.Reading event window from file: 0.0716s
+Processing: 355.Reading event window from file: 0.1067s
+Processing: 360.Reading event window from file: 0.0736s
+Processing: 365.Reading event window from file: 0.0954s
+Processing: 370.Reading event window from file: 0.0607s
+Processing: 375.Reading event window from file: 0.0765s
+Processing: 380.Reading event window from file: 0.0777s
+Processing: 385.Reading event window from file: 0.1601s
+Processing: 390.Reading event window from file: 0.0849s
+Processing: 395.Reading event window from file: 0.1082s
+Processing: 400.Reading event window from file: 0.0584s
+Processing: 405.Reading event window from file: 0.0468s
+Processing: 410.Reading event window from file: 0.0616s
+Processing: 415.Reading event window from file: 0.0380s
+Processing: 420.Reading event window from file: 0.0417s
+Processing: 425.Reading event window from file: 0.0362s
+Processing: 430.Reading event window from file: 0.0598s
+Processing: 435.Reading event window from file: 0.0476s
+Processing: 440.Reading event window from file: 0.0527s
+Processing: 445.Reading event window from file: 0.0566s
+Processing: 450.Reading event window from file: 0.0523s
+Processing: 455.Reading event window from file: 0.0334s
+Processing: 460.Reading event window from file: 0.0727s
+Processing: 465.Reading event window from file: 0.0544s
+Processing: 470.Reading event window from file: 0.0370s
+Processing: 475.Reading event window from file: 0.0780s
+Processing: 480.Reading event window from file: 0.0549s
+Processing: 485.Reading event window from file: 0.0504s
+Processing: 490.Reading event window from file: 0.0760s
+Processing: 495.Reading event window from file: 0.0554s
+Processing: 500.Reading event window from file: 0.0852s
+Processing: 505.Reading event window from file: 0.0830s
+Processing: 510.Reading event window from file: 0.0855s
+Processing: 515.Reading event window from file: 0.0518s
+Processing: 520.Reading event window from file: 0.0486s
+Processing: 525.Reading event window from file: 0.0771s
+Processing: 530.Reading event window from file: 0.0385s
+Processing: 535.Reading event window from file: 0.0546s
+Processing: 540.Reading event window from file: 0.0900s
+Processing: 545.Reading event window from file: 0.0612s
+Processing: 550.Reading event window from file: 0.0972s
+Processing: 555.Reading event window from file: 0.0770s
+Processing: 560.Reading event window from file: 0.0946s
+Processing: 565.Reading event window from file: 0.0434s
+Processing: 570.Reading event window from file: 0.0240s
+Processing: 575.Reading event window from file: 0.0979s
+Processing: 580.Reading event window from file: 0.0473s
+Processing: 585.Reading event window from file: 0.0467s
+Processing: 590.Reading event window from file: 0.0734s
+Processing: 595.Reading event window from file: 0.0952s
+Processing: 600.Reading event window from file: 0.0428s
+Processing: 605.Reading event window from file: 0.1122s
+Processing: 610.Reading event window from file: 0.0392s
+Processing: 615.Reading event window from file: 0.1242s
+Processing: 620.Reading event window from file: 0.0661s
+Processing: 625.Reading event window from file: 0.0683s
+Processing: 630.Reading event window from file: 0.0772s
+Processing: 635.Reading event window from file: 0.0781s
+Processing: 640.Reading event window from file: 0.0981s
+Processing: 645.Reading event window from file: 0.0719s
+Processing: 650.Reading event window from file: 0.1261s
+Processing: 655.Reading event window from file: 0.1148s
+Processing: 660.Reading event window from file: 0.2101s
+Processing: 665.Reading event window from file: 0.0396s
+Processing: 670.Reading event window from file: 0.0648s
+Processing: 675.Reading event window from file: 0.1053s
+Processing: 680.Reading event window from file: 0.0625s
+Processing: 685.Reading event window from file: 0.1337s
+Processing: 690.Reading event window from file: 0.0885s
+Processing: 695.Reading event window from file: 0.0315s
+Processing: 700.Reading event window from file: 0.0527s
+Processing: 705.Reading event window from file: 0.1060s
+Processing: 710.Reading event window from file: 0.0821s
+Processing: 715.Reading event window from file: 0.1182s
+Processing: 720.Reading event window from file: 0.0922s
+Processing: 725.Reading event window from file: 0.1154s
+Processing: 730.Reading event window from file: 0.1099s
+Processing: 735.Reading event window from file: 0.0481s
+Processing: 740.Reading event window from file: 0.0399s
+Processing: 745.Reading event window from file: 0.0386s
+Processing: 750.Reading event window from file: 0.0506s
+Processing: 755.Reading event window from file: 0.0199s
+Processing: 760.Reading event window from file: 0.0660s
+Processing: 765.Reading event window from file: 0.1070s
+Processing: 770.Reading event window from file: 0.0896s
+Processing: 775.Reading event window from file: 0.1285s
+Processing: 780.Reading event window from file: 0.1251s
+Processing: 785.Reading event window from file: 0.0592s
+Processing: 790.Reading event window from file: 0.0400s
+Processing: 795.Reading event window from file: 0.0662s
+Processing: 800.Reading event window from file: 0.0448s
+Processing: 805.Reading event window from file: 0.0581s
+Processing: 810.Reading event window from file: 0.0889s
+Processing: 815.Reading event window from file: 0.0609s
+Processing: 820.Reading event window from file: 0.1188s
+Processing: 825.Reading event window from file: 0.0970s
+Processing: 830.Reading event window from file: 0.1162s
+Processing: 835.Reading event window from file: 0.1145s
+Processing: 840.Reading event window from file: 0.0779s
+Processing: 845.Reading event window from file: 0.1137s
+Processing: 850.Reading event window from file: 0.0592s
+Processing: 855.Reading event window from file: 0.1108s
+Processing: 860.Reading event window from file: 0.0972s
+Processing: 865.Reading event window from file: 0.1076s
+Processing: 870.Reading event window from file: 0.0853s
+Processing: 875.Reading event window from file: 0.0901s
+Processing: 880.Reading event window from file: 0.0689s
+Processing: 885.Reading event window from file: 0.0865s
+Processing: 890.Reading event window from file: 0.0941s
+Processing: 895.Reading event window from file: 0.0774s
+Processing: 900.Reading event window from file: 0.0837s
+Processing: 905.Reading event window from file: 0.1274s
+Processing: 910.Reading event window from file: 0.0964s
+Processing: 915.Reading event window from file: 0.1467s
+Processing: 920.Reading event window from file: 0.0749s
+Processing: 925.Reading event window from file: 0.1003s
+Processing: 930.Reading event window from file: 0.0640s
+Processing: 935.Reading event window from file: 0.0849s
+Processing: 940.Reading event window from file: 0.0688s
+Processing: 945.Reading event window from file: 0.0390s
+Processing: 950.Reading event window from file: 0.0375s
+Processing: 955.Reading event window from file: 0.0935s
+Processing: 960.Reading event window from file: 0.0696s
+Processing: 965.Reading event window from file: 0.1320s
+Processing: 970.Reading event window from file: 0.0836s
+Processing: 975.Reading event window from file: 0.1073s
+Processing: 980.Reading event window from file: 0.0595s
+Processing: 985.Reading event window from file: 0.1230s
+Processing: 990.Reading event window from file: 0.1222s
+Processing: 995.Reading event window from file: 0.0974s
+Processing: 1000.Reading event window from file: 0.0861s
+Processing: 1005.Reading event window from file: 0.0447s
+Processing: 1010.Reading event window from file: 0.0425s
+Processing: 1015.Reading event window from file: 0.0522s
+Processing: 1020.Reading event window from file: 0.0874s
+Processing: 1025.Reading event window from file: 0.1621s
+Processing: 1030.Reading event window from file: 0.1416s
+Processing: 1035.Reading event window from file: 0.1384s
+Processing: 1040.Reading event window from file: 0.1488s
+Processing: 1045.Reading event window from file: 0.1186s
+Processing: 1050.Reading event window from file: 0.1194s
+Processing: 1055.Reading event window from file: 0.1231s
+Processing: 1060.Reading event window from file: 0.0908s
+Processing: 1065.Reading event window from file: 0.1456s
+Processing: 1070.Reading event window from file: 0.1797s
+Processing: 1075.Reading event window from file: 0.1690s
+Processing: 1080.Reading event window from file: 0.1433s
+Processing: 1085.Reading event window from file: 0.0872s
+Processing: 1090.Reading event window from file: 0.0881s
+Processing: 1095.Reading event window from file: 0.0393s
+Processing: 1100.Reading event window from file: 0.0488s
+Processing: 1105.Reading event window from file: 0.0656s
+Processing: 1110.Reading event window from file: 0.1015s
+Processing: 1115.Reading event window from file: 0.0737s
+Processing: 1120.Reading event window from file: 0.0775s
+Processing: 1125.Reading event window from file: 0.0375s
+Processing: 1130.Reading event window from file: 0.0955s
+Processing: 1135.Reading event window from file: 0.0290s
+Processing: 1140.Reading event window from file: 0.0521s
+Processing: 1145.Reading event window from file: 0.0794s
+Processing: 1150.Reading event window from file: 0.0797s
+Processing: 1155.Reading event window from file: 0.0670s
+Processing: 1160.Reading event window from file: 0.0253s
+Processing: 1165.Reading event window from file: 0.0183s
+Processing: 1170.Reading event window from file: 0.0328s
+Processing: 1175.Reading event window from file: 0.0286s
+Processing: 1180.Reading event window from file: 0.1002s
+Processing: 1185.Reading event window from file: 0.0255s
+Processing: 1190.Reading event window from file: 0.0206s
+Processing: 1195.Reading event window from file: 0.0518s
+Processing: 1200.Reading event window from file: 0.0846s
+Processing: 1205.Reading event window from file: 0.0797s
+Processing: 1210.Reading event window from file: 0.0670s
+Processing: 1215.Reading event window from file: 0.0662s
+Processing: 1220.Reading event window from file: 0.0660s
+Processing: 1225.Reading event window from file: 0.0771s
+Processing: 1230.Reading event window from file: 0.0389s
+Processing: 1235.Reading event window from file: 0.0428s
+Processing: 1240.Reading event window from file: 0.1446s
+Processing: 1245.Reading event window from file: 0.0523s
+Processing: 1250.Reading event window from file: 0.0272s
+Processing: 1255.Reading event window from file: 0.0268s
+Processing: 1260.Reading event window from file: 0.0848s
+Processing: 1265.Reading event window from file: 0.0637s
+Processing: 1270.Reading event window from file: 0.0919s
+Processing: 1275.Reading event window from file: 0.0630s
+Processing: 1280.Reading event window from file: 0.1019s
+Processing: 1285.Reading event window from file: 0.1151s
+Processing: 1290.Reading event window from file: 0.1271s
+Processing: 1295.Reading event window from file: 0.1347s
+Processing: 1300.Reading event window from file: 0.1450s
+Processing: 1305.Reading event window from file: 0.1300s
+Processing: 1310.Reading event window from file: 0.2326s
+Processing: 1315.Reading event window from file: 0.1544s
+Processing: 1320.Reading event window from file: 0.1771s
+Processing: 1325.Reading event window from file: 0.1264s
+Processing: 1330.Reading event window from file: 0.1502s
+Processing: 1335.Reading event window from file: 0.1481s
+Processing: 1340.Reading event window from file: 0.1134s
+Processing: 1345.Reading event window from file: 0.0839s
+Processing: 1350.Reading event window from file: 0.1295s
+Processing: 1355.Reading event window from file: 0.0480s
+Processing: 1360.Reading event window from file: 0.0916s
+Processing: 1365.Reading event window from file: 0.0625s
+Processing: 1370.Reading event window from file: 0.0511s
+Processing: 1375.Reading event window from file: 0.0741s
+Processing: 1380.Reading event window from file: 0.0529s
+Processing: 1385.Reading event window from file: 0.0669s
+Processing: 1390.Reading event window from file: 0.0878s
+Processing: 1395.Reading event window from file: 0.0871s
+Processing: 1400.Reading event window from file: 0.2137s
+Processing: 1405.Reading event window from file: 0.1410s
+Processing: 1410.Reading event window from file: 0.1421s
+Processing: 1415.Reading event window from file: 0.1714s
+Processing: 1420.Reading event window from file: 0.1591s
+Processing: 1425.Reading event window from file: 0.1272s
+Processing: 1430.Reading event window from file: 0.1457s
+Processing: 1435.Reading event window from file: 0.1134s
+Processing: 1440.Reading event window from file: 0.0913s
+Processing: 1445.Reading event window from file: 0.1257s
+Processing: 1450.Reading event window from file: 0.1566s
+Processing: 1455.Reading event window from file: 0.1509s
+Processing: 1460.Reading event window from file: 0.0762s
+Processing: 1465.Reading event window from file: 0.1151s
+Processing: 1470.Reading event window from file: 0.0915s
+Processing: 1475.Reading event window from file: 0.1138s
+Processing: 1480.Reading event window from file: 0.1204s
+Processing: 1485.Reading event window from file: 0.0960s
+Processing: 1490.Reading event window from file: 0.1146s
+Processing: 1495.Reading event window from file: 0.1710s
+Processing: 1500.Reading event window from file: 0.1006s
+Processing: 1505.Reading event window from file: 0.1066s
+Processing: 1510.Reading event window from file: 0.0803s
+Processing: 1515.Reading event window from file: 0.0972s
+Processing: 1520.Reading event window from file: 0.0510s
+Processing: 1525.Reading event window from file: 0.0837s
+Processing: 1530.Reading event window from file: 0.0536s
+Processing: 1535.Reading event window from file: 0.0973s
+Processing: 1540.Reading event window from file: 0.0803s
+Processing: 1545.Reading event window from file: 0.1382s
+Processing: 1550.Reading event window from file: 0.0875s
+Processing: 1555.Reading event window from file: 0.1210s
+Processing: 1560.Reading event window from file: 0.2180s
+Processing: 1565.Reading event window from file: 0.0934s
+Processing: 1570.Reading event window from file: 0.1533s
+Processing: 1575.Reading event window from file: 0.0803s
+Processing: 1580.Reading event window from file: 0.1015s
+Processing: 1585.Reading event window from file: 0.0578s
+Processing: 1590.Reading event window from file: 0.0865s
+Processing: 1595.Reading event window from file: 0.0396s
+Processing: 1600.Reading event window from file: 0.0329s
+Processing: 1605.Reading event window from file: 0.0719s
+Processing: 1610.Reading event window from file: 0.0592s
+Processing: 1615.Reading event window from file: 0.0901s
+Processing: 1620.Reading event window from file: 0.0611s
+Processing: 1625.Reading event window from file: 0.1039s
+Processing: 1630.Reading event window from file: 0.0661s
+Processing: 1635.Reading event window from file: 0.1189s
+Processing: 1640.Reading event window from file: 0.1037s
+Processing: 1645.Reading event window from file: 0.1240s
+Processing: 1650.Reading event window from file: 0.1156s
+Processing: 1655.Reading event window from file: 0.0949s
+Processing: 1660.Reading event window from file: 0.1285s
+Processing: 1665.Reading event window from file: 0.1331s
+Processing: 1670.Reading event window from file: 0.1123s
+Processing: 1675.Reading event window from file: 0.0709s
+Processing: 1680.Reading event window from file: 0.0907s
+Processing: 1685.Reading event window from file: 0.0791s
+Processing: 1690.Reading event window from file: 0.0946s
+Processing: 1695.Reading event window from file: 0.1485s
+Processing: 1700.Reading event window from file: 0.1152s
+Processing: 1705.Reading event window from file: 0.1449s
+Processing: 1710.Reading event window from file: 0.1681s
+Processing: 1715.Reading event window from file: 0.1320s
+Processing: 1720.Reading event window from file: 0.1063s
+Processing: 1725.Reading event window from file: 0.0964s
+Processing: 1730.Reading event window from file: 0.1663s
+Processing: 1735.Reading event window from file: 0.1639s
+Processing: 1740.Reading event window from file: 0.2235s
+Processing: 1745.Reading event window from file: 0.2376s
+Processing: 1750.Reading event window from file: 0.1208s
+Processing: 1755.Reading event window from file: 0.1393s
+Processing: 1760.Reading event window from file: 0.1355s
+Processing: 1765.Reading event window from file: 0.1516s
+Processing: 1770.Reading event window from file: 0.2099s
+Processing: 1775.Reading event window from file: 0.1321s
+Processing: 1780.Reading event window from file: 0.1570s
+Processing: 1785.Reading event window from file: 0.1427s
+Processing: 1790.Reading event window from file: 0.0380s
+Processing: 1795.Reading event window from file: 0.0433s
+Processing: 1800.Reading event window from file: 0.0931s
+Processing: 1805.Reading event window from file: 0.0461s
+Processing: 1810.Reading event window from file: 0.0776s
+Processing: 1815.Reading event window from file: 0.0697s
+Processing: 1820.Reading event window from file: 0.1020s
+Processing: 1825.Reading event window from file: 0.0647s
+Processing: 1830.Reading event window from file: 0.1029s
+Processing: 1835.Reading event window from file: 0.0956s
+Processing: 1840.Reading event window from file: 0.0877s
+Processing: 1845.Reading event window from file: 0.1376s
+Processing: 1850.Reading event window from file: 0.1214s
+Processing: 1855.Reading event window from file: 0.1563s
+Processing: 1860.Reading event window from file: 0.1978s
+Processing: 1865.Reading event window from file: 0.3344s
+Processing: 1870.Reading event window from file: 0.2237s
+Processing: 1875.Reading event window from file: 0.2475s
+Processing: 1880.Reading event window from file: 0.2864s
+Processing: 1885.Reading event window from file: 0.3302s
+Processing: 1890.Reading event window from file: 0.2030s
+Processing: 1895.Reading event window from file: 0.1536s
+Processing: 1900.Reading event window from file: 0.1333s
+Processing: 1905.Reading event window from file: 0.0792s
+Processing: 1910.Reading event window from file: 0.0792s
+Processing: 1915.Reading event window from file: 0.0538s
+Processing: 1920.Reading event window from file: 0.1162s
+Processing: 1925.Reading event window from file: 0.1472s
+Processing: 1930.Reading event window from file: 0.1447s
+Processing: 1935.Reading event window from file: 0.1894s
+Processing: 1940.Reading event window from file: 0.1742s
+Processing: 1945.Reading event window from file: 0.1806s
+Processing: 1950.Reading event window from file: 0.1649s
+Processing: 1955.Reading event window from file: 0.2206s
+Processing: 1960.Reading event window from file: 0.1718s
+Processing: 1965.Reading event window from file: 0.1693s
+Processing: 1970.Reading event window from file: 0.1776s
+Processing: 1975.Reading event window from file: 0.0888s
+Processing: 1980.Reading event window from file: 0.1177s
+Processing: 1985.Reading event window from file: 0.0831s
+Processing: 1990.Reading event window from file: 0.0466s
+Processing: 1995.Reading event window from file: 0.0412s
+Processing: 2000.Reading event window from file: 0.0590s
+Processing: 2005.Reading event window from file: 0.0432s
+Processing: 2010.Reading event window from file: 0.0493s
+Processing: 2015.Reading event window from file: 0.0858s
+Processing: 2020.Reading event window from file: 0.0684s
+Processing: 2025.Reading event window from file: 0.1015s
+Processing: 2030.Reading event window from file: 0.1923s
+Processing: 2035.Reading event window from file: 0.1518s
+Processing: 2040.Reading event window from file: 0.1137s
+Processing: 2045.Reading event window from file: 0.1485s
+Processing: 2050.Reading event window from file: 0.1411s
+Processing: 2055.Reading event window from file: 0.1399s
+Processing: 2060.Reading event window from file: 0.1226s
+Processing: 2065.Reading event window from file: 0.1447s
+Processing: 2070.Reading event window from file: 0.1461s
+Processing: 2075.Reading event window from file: 0.1479s
+Processing: 2080.Reading event window from file: 0.1851s
+Processing: 2085.Reading event window from file: 0.1733s
+Processing: 2090.Reading event window from file: 0.1754s
+Processing: 2095.Reading event window from file: 0.1766s
+Processing: 2100.Reading event window from file: 0.2060s
+Processing: 2105.Reading event window from file: 0.2535s
+Processing: 2110.Reading event window from file: 0.2924s
+Processing: 2115.Reading event window from file: 0.2679s
+Processing: 2120.Reading event window from file: 0.2507s
+Processing: 2125.Reading event window from file: 0.3050s
+Processing: 2130.Reading event window from file: 0.2896s
+Processing: 2135.Reading event window from file: 0.2761s
+Processing: 2140.Reading event window from file: 0.1748s
+Processing: 2145.Reading event window from file: 0.1774s
+Processing: 2150.Reading event window from file: 0.1396s
+Processing: 2155.Reading event window from file: 0.1044s
+Processing: 2160.Reading event window from file: 0.0757s
+Processing: 2165.Reading event window from file: 0.0789s
+Processing: 2170.Reading event window from file: 0.0304s
+Processing: 2175.Reading event window from file: 0.0444s
+Processing: 2180.Reading event window from file: 0.0715s
+Processing: 2185.Reading event window from file: 0.0853s
+Processing: 2190.Reading event window from file: 0.1266s
+Processing: 2195.Reading event window from file: 0.1198s
+Processing: 2200.Reading event window from file: 0.0618s
+Processing: 2205.Reading event window from file: 0.1049s
+Processing: 2210.Reading event window from file: 0.0637s
+Processing: 2215.Reading event window from file: 0.0770s
+Processing: 2220.Reading event window from file: 0.0274s
+Processing: 2225.Reading event window from file: 0.0283s
+Processing: 2230.Reading event window from file: 0.0162s
+Processing: 2235.Reading event window from file: 0.0465s
+Processing: 2240.Reading event window from file: 0.0608s
+Processing: 2245.Reading event window from file: 0.0340s
+Processing: 2250.Reading event window from file: 0.0446s
+Processing: 2255.Reading event window from file: 0.0918s
+Processing: 2260.Reading event window from file: 0.0609s
+Processing: 2265.Reading event window from file: 0.0902s
+Processing: 2270.Reading event window from file: 0.0719s
+Processing: 2275.Reading event window from file: 0.0581s
+Processing: 2280.Reading event window from file: 0.0610s
+Processing: 2285.Reading event window from file: 0.0148s
+Processing: 2290.Reading event window from file: 0.0417s
+Processing: 2295.Reading event window from file: 0.0468s
+Processing: 2300.Reading event window from file: 0.0751s
+Processing: 2305.Reading event window from file: 0.0468s
+Processing: 2310.Reading event window from file: 0.0750s
+Processing: 2315.Reading event window from file: 0.0701s
+Processing: 2320.Reading event window from file: 0.1050s
+Processing: 2325.Reading event window from file: 0.1008s
+Processing: 2330.Reading event window from file: 0.0969s
+Processing: 2335.Reading event window from file: 0.0377s
+Processing: 2340.Reading event window from file: 0.1292s
+Processing: 2345.Reading event window from file: 0.1277s
+Processing: 2350.Reading event window from file: 0.1408s
+Processing: 2355.Reading event window from file: 0.1538s
+Processing: 2360.Reading event window from file: 0.0616s
+Processing: 2365.Reading event window from file: 0.0645s
+Processing: 2370.Reading event window from file: 0.0756s
+Processing: 2375.Reading event window from file: 0.0388s
+Processing: 2380.Reading event window from file: 0.0690s
+Processing: 2385.Reading event window from file: 0.0776s
+Processing: 2390.Reading event window from file: 0.1220s
+Processing: 2395.Reading event window from file: 0.1332s
+Processing: 2400.Reading event window from file: 0.1504s
+Processing: 2405.Reading event window from file: 0.1599s
+Processing: 2410.Reading event window from file: 0.0813s
+Processing: 2415.Reading event window from file: 0.0615s
+Processing: 2420.Reading event window from file: 0.0442s
+Processing: 2425.Reading event window from file: 0.0545s
+Processing: 2430.Reading event window from file: 0.1519s
+Processing: 2435.Reading event window from file: 0.1179s
+Processing: 2440.Reading event window from file: 0.1375s
+Processing: 2445.Reading event window from file: 0.1232s
+Processing: 2450.Reading event window from file: 0.1082s
+Processing: 2455.Reading event window from file: 0.1470s
+Processing: 2460.Reading event window from file: 0.1468s
+Processing: 2465.Reading event window from file: 0.1973s
+Processing: 2470.Reading event window from file: 0.2203s
+Processing: 2475.Reading event window from file: 0.2246s
+Processing: 2480.Reading event window from file: 0.2653s
+Processing: 2485.Reading event window from file: 0.2453s
+Processing: 2490.Reading event window from file: 0.1889s
+Processing: 2495.Reading event window from file: 0.1649s
+Processing: 2500.Reading event window from file: 0.1231s
+Processing: 2505.Reading event window from file: 0.0973s
+Processing: 2510.Reading event window from file: 0.1022s
+Processing: 2515.Reading event window from file: 0.0658s
+Processing: 2520.Reading event window from file: 0.1221s
+Processing: 2525.Reading event window from file: 0.1581s
+Processing: 2530.Reading event window from file: 0.2342s
+Processing: 2535.Reading event window from file: 0.3091s
+Processing: 2540.Reading event window from file: 0.2773s
+Processing: 2545.Reading event window from file: 0.2979s
+Processing: 2550.Reading event window from file: 0.2953s
+Processing: 2555.Reading event window from file: 0.2435s
+Processing: 2560.Reading event window from file: 0.2598s
+Processing: 2565.Reading event window from file: 0.1886s
+Processing: 2570.Reading event window from file: 0.1679s
+Processing: 2575.Reading event window from file: 0.1490s
+Processing: 2580.Reading event window from file: 0.1606s
+Processing: 2585.Reading event window from file: 0.2372s
+Processing: 2590.Reading event window from file: 0.1820s
+Processing: 2595.Reading event window from file: 0.1786s
+Processing: 2600.Reading event window from file: 0.1408s
+Processing: 2605.Reading event window from file: 0.1253s
+Processing: 2610.Reading event window from file: 0.1085s
+Processing: 2615.Reading event window from file: 0.0584s
+Processing: 2620.Reading event window from file: 0.0506s
+Processing: 2625.Reading event window from file: 0.0626s
+Processing: 2630.Reading event window from file: 0.0545s
+Processing: 2635.Reading event window from file: 0.1267s
+Processing: 2640.Reading event window from file: 0.1449s
+Processing: 2645.Reading event window from file: 0.1810s
+Processing: 2650.Reading event window from file: 0.2331s
+Processing: 2655.Reading event window from file: 0.2551s
+Processing: 2660.Reading event window from file: 0.2661s
+Processing: 2665.Reading event window from file: 0.2127s
+Processing: 2670.Reading event window from file: 0.1840s
+Processing: 2675.Reading event window from file: 0.1546s
+Processing: 2680.Reading event window from file: 0.0917s
+Processing: 2685.Reading event window from file: 0.0504s
+Processing: 2690.Reading event window from file: 0.0798s
+Processing: 2695.Reading event window from file: 0.0788s
+Processing: 2700.Reading event window from file: 0.0866s
+Processing: 2705.Reading event window from file: 0.1443s
+Processing: 2710.Reading event window from file: 0.0881s
+Processing: 2715.Reading event window from file: 0.1106s
+Processing: 2720.Reading event window from file: 0.1737s
+Processing: 2725.Reading event window from file: 0.3106s
+Processing: 2730.Reading event window from file: 0.2887s
+Processing: 2735.Reading event window from file: 0.3225s
+Processing: 2740.Reading event window from file: 0.2892s
+Processing: 2745.Reading event window from file: 0.3202s
+Processing: 2750.Reading event window from file: 0.3347s
+Processing: 2755.Reading event window from file: 0.1743s
+Processing: 2760.Reading event window from file: 0.0995s
+Processing: 2765.Reading event window from file: 0.0929s
+Processing: 2770.Reading event window from file: 0.0601s
+Processing: 2775.Reading event window from file: 0.0882s
+Processing: 2780.Reading event window from file: 0.1586s
+Processing: 2785.Reading event window from file: 0.2202s
+Processing: 2790.Reading event window from file: 0.3061s
+Processing: 2795.Reading event window from file: 0.3326s
+Processing: 2800.Reading event window from file: 0.3774s
+Processing: 2805.Reading event window from file: 0.5055s
+Processing: 2810.Reading event window from file: 0.3384s
+Processing: 2815.Reading event window from file: 0.2945s
+Processing: 2820.Reading event window from file: 0.2413s
+Processing: 2825.Reading event window from file: 0.2026s
+Processing: 2830.Reading event window from file: 0.3091s
+Processing: 2835.Reading event window from file: 0.3179s
+Processing: 2840.Reading event window from file: 0.2439s
+Processing: 2845.Reading event window from file: 0.2360s
+Processing: 2850.Reading event window from file: 0.1487s
+Processing: 2855.Reading event window from file: 0.0872s
+Processing: 2860.Reading event window from file: 0.1092s
+Processing: 2865.Reading event window from file: 0.1046s
+Processing: 2870.Reading event window from file: 0.0819s
+Processing: 2875.Reading event window from file: 0.1002s
+Processing: 2880.Reading event window from file: 0.1168s
+Processing: 2885.Reading event window from file: 0.1762s
+Processing: 2890.Reading event window from file: 0.2256s
+Processing: 2895.Reading event window from file: 0.2822s
+Processing: 2900.Reading event window from file: 0.3127s
+Processing: 2905.Reading event window from file: 0.2321s
+Processing: 2910.Reading event window from file: 0.1713s
+Processing: 2915.Reading event window from file: 0.1962s
+Processing: 2920.Reading event window from file: 0.3132s
+Processing: 2925.Reading event window from file: 0.3900s
+Processing: 2930.Reading event window from file: 0.2888s
+Processing: 2935.Reading event window from file: 0.2106s
+Processing: 2940.Reading event window from file: 0.2836s
+Processing: 2945.Reading event window from file: 0.2792s
+Processing: 2950.Reading event window from file: 0.3154s
+Processing: 2955.Reading event window from file: 0.4290s
+Processing: 2960.Reading event window from file: 0.3909s
+Processing: 2965.Reading event window from file: 0.2767s
+Processing: 2970.Reading event window from file: 0.3133s
+Processing: 2975.Reading event window from file: 0.2031s
+Processing: 2980.Reading event window from file: 0.0564s
+Processing: 2985.Reading event window from file: 0.0816s
+Processing: 2990.Reading event window from file: 0.0759s
+Processing: 2995.Reading event window from file: 0.1599s
+Processing: 3000.Reading event window from file: 0.1968s
+Processing: 3005.Reading event window from file: 0.2788s
+Processing: 3010.Reading event window from file: 0.3738s
+Processing: 3015.Reading event window from file: 0.4971s
+Processing: 3020.Reading event window from file: 0.4991s
+Processing: 3025.Reading event window from file: 0.3001s
+Processing: 3030.Reading event window from file: 0.2335s
+Processing: 3035.Reading event window from file: 0.2830s
+Processing: 3040.Reading event window from file: 0.3710s
+Processing: 3045.Reading event window from file: 0.3293s
+Processing: 3050.Reading event window from file: 0.3099s
+Processing: 3055.Reading event window from file: 0.2691s
+Processing: 3060.Reading event window from file: 0.1959s
+Processing: 3065.Reading event window from file: 0.1688s
+Processing: 3070.Reading event window from file: 0.2011s
+Processing: 3075.Reading event window from file: 0.2309s
+Processing: 3080.Reading event window from file: 0.1192s
+Processing: 3085.Reading event window from file: 0.2819s
+Processing: 3090.Reading event window from file: 0.2889s
+Processing: 3095.Reading event window from file: 0.1795s
+Processing: 3100.Reading event window from file: 0.1070s
+Processing: 3105.Reading event window from file: 0.0919s
+Processing: 3110.Reading event window from file: 0.0843s
+Processing: 3115.Reading event window from file: 0.1347s
+Processing: 3120.Reading event window from file: 0.1717s
+Processing: 3125.Reading event window from file: 0.2405s
+Processing: 3130.Reading event window from file: 0.2013s
+Processing: 3135.Reading event window from file: 0.2545s
+Processing: 3140.Reading event window from file: 0.2396s
+Processing: 3145.Reading event window from file: 0.2854s
+Processing: 3150.Reading event window from file: 0.3228s
+Processing: 3155.Reading event window from file: 0.3691s
+Processing: 3160.Reading event window from file: 0.3373s
+Processing: 3165.Reading event window from file: 0.3070s
+Processing: 3170.Reading event window from file: 0.2499s
+Processing: 3175.Reading event window from file: 0.2796s
+Processing: 3180.Reading event window from file: 0.2258s
+Processing: 3185.Reading event window from file: 0.2589s
+Processing: 3190.Reading event window from file: 0.3272s
+Processing: 3195.Reading event window from file: 0.3503s
+Processing: 3200.Reading event window from file: 0.1747s
+Processing: 3205.Reading event window from file: 0.2532s
+Processing: 3210.Reading event window from file: 0.4089s
+Processing: 3215.Reading event window from file: 0.3224s
+Processing: 3220.Reading event window from file: 0.3076s
+Processing: 3225.Reading event window from file: 0.2845s
+Processing: 3230.Reading event window from file: 0.3498s
+Processing: 3235.Reading event window from file: 0.3272s
+Processing: 3240.Reading event window from file: 0.4269s
+Processing: 3245.Reading event window from file: 0.3060s
+Processing: 3250.Reading event window from file: 0.5189s
+Processing: 3255.Reading event window from file: 0.3206s
+Processing: 3260.Reading event window from file: 0.1680s
+Processing: 3265.Reading event window from file: 0.1417s
+Processing: 3270.Reading event window from file: 0.1395s
+Processing: 3275.Reading event window from file: 0.1304s
+Processing: 3280.Reading event window from file: 0.0785s
+Processing: 3285.Reading event window from file: 0.0513s
+Processing: 3290.Reading event window from file: 0.1459s
+Processing: 3295.Reading event window from file: 0.2103s
+Processing: 3300.Reading event window from file: 0.2330s
+Processing: 3305.Reading event window from file: 0.3331s
+Processing: 3310.Reading event window from file: 0.2899s
+Processing: 3315.Reading event window from file: 0.2228s
+Processing: 3320.Reading event window from file: 0.1302s
+Processing: 3325.Reading event window from file: 0.1694s
+Processing: 3330.Reading event window from file: 0.1691s
+Processing: 3335.Reading event window from file: 0.2199s
+Processing: 3340.Reading event window from file: 0.1914s
+Processing: 3345.Reading event window from file: 0.2131s
+Processing: 3350.Reading event window from file: 0.0790s
+Processing: 3355.Reading event window from file: 0.0518s
+Processing: 3360.Reading event window from file: 0.0556s
+Processing: 3365.Reading event window from file: 0.1078s
+Processing: 3370.Reading event window from file: 0.1226s
+Processing: 3375.Reading event window from file: 0.0584s
+Processing: 3380.Reading event window from file: 0.1066s
+Processing: 3385.Reading event window from file: 0.1106s
+Processing: 3390.Reading event window from file: 0.1070s
+Processing: 3395.Reading event window from file: 0.1519s
+Processing: 3400.Reading event window from file: 0.1890s
+Processing: 3405.Reading event window from file: 0.2289s
+Processing: 3410.Reading event window from file: 0.2891s
+Processing: 3415.Reading event window from file: 0.1616s
+Processing: 3420.Reading event window from file: 0.1019s
+Processing: 3425.Reading event window from file: 0.0889s
+Processing: 3430.Reading event window from file: 0.0850s
+Processing: 3435.Reading event window from file: 0.1487s
+Processing: 3440.Reading event window from file: 0.2164s
+Processing: 3445.Reading event window from file: 0.2685s
+Processing: 3450.Reading event window from file: 0.3956s
+Processing: 3455.Reading event window from file: 0.2257s
+Processing: 3460.Reading event window from file: 0.2454s
+Processing: 3465.Reading event window from file: 0.1132s
+Processing: 3470.Reading event window from file: 0.0995s
+Processing: 3475.Reading event window from file: 0.1446s
+Processing: 3480.Reading event window from file: 0.1180s
+Processing: 3485.Reading event window from file: 0.1980s
+Processing: 3490.Reading event window from file: 0.1837s
+Processing: 3495.Reading event window from file: 0.3099s
+Processing: 3500.Reading event window from file: 0.2433s
+Processing: 3505.Reading event window from file: 0.1929s
+Processing: 3510.Reading event window from file: 0.3509s
+Processing: 3515.Reading event window from file: 0.3651s
+Processing: 3520.Reading event window from file: 0.2519s
+Processing: 3525.Reading event window from file: 0.3882s
+Processing: 3530.Reading event window from file: 0.5606s
+Processing: 3535.Reading event window from file: 0.4843s
+Processing: 3540.Reading event window from file: 0.2751s
+Processing: 3545.Reading event window from file: 0.3740s
+Processing: 3550.Reading event window from file: 0.3304s
+Processing: 3555.Reading event window from file: 0.2143s
+Processing: 3560.Reading event window from file: 0.2561s
+Processing: 3565.Reading event window from file: 0.4433s
+Processing: 3570.Reading event window from file: 0.3160s
+Processing: 3575.Reading event window from file: 0.1571s
+Processing: 3580.Reading event window from file: 0.2475s
+Processing: 3585.Reading event window from file: 0.2048s
+Processing: 3590.Reading event window from file: 0.2736s
+Processing: 3595.Reading event window from file: 0.2170s
+Processing: 3600.Reading event window from file: 0.1470s
+Processing: 3605.Reading event window from file: 0.2161s
+Processing: 3610.Reading event window from file: 0.4222s
+Processing: 3615.Reading event window from file: 0.5461s
+Processing: 3620.Reading event window from file: 0.2085s
+Processing: 3625.Reading event window from file: 0.3319s
+Processing: 3630.Reading event window from file: 0.4222s
+Processing: 3635.Reading event window from file: 0.2691s
+Processing: 3640.Reading event window from file: 0.2783s
+Processing: 3645.Reading event window from file: 0.3344s
+Processing: 3650.Reading event window from file: 0.2508s
+Processing: 3655.Reading event window from file: 0.4508s
+Processing: 3660.Reading event window from file: 0.1988s
+Processing: 3665.Reading event window from file: 0.2983s
+Processing: 3670.Reading event window from file: 0.2564s
+Processing: 3675.Reading event window from file: 0.2521s
+Processing: 3680.Reading event window from file: 0.3572s
+Processing: 3685.Reading event window from file: 0.2204s
+Processing: 3690.Reading event window from file: 0.3153s
+Processing: 3695.Reading event window from file: 0.4047s
+Processing: 3700.Reading event window from file: 0.3156s
+Processing: 3705.Reading event window from file: 0.4722s
+Processing: 3710.Reading event window from file: 0.4082s
+Processing: 3715.Reading event window from file: 0.2659s
+Processing: 3720.Reading event window from file: 0.2326s
+Processing: 3725.Reading event window from file: 0.4016s
+Processing: 3730.Reading event window from file: 0.3766s
+Processing: 3735.Reading event window from file: 0.2155s
+Processing: 3740.Reading event window from file: 0.4356s
+Processing: 3745.Reading event window from file: 0.4472s
+Processing: 3750.Reading event window from file: 0.3986s
+Processing: 3755.Reading event window from file: 0.3233s
+Processing: 3760.Reading event window from file: 0.2749s
+Processing: 3765.Reading event window from file: 0.2165s
+Processing: 3770.Reading event window from file: 0.2572s
+Processing: 3775.Reading event window from file: 0.1407s
+Processing: 3780.Reading event window from file: 0.1954s
+Processing: 3785.Reading event window from file: 0.2933s
+Processing: 3790.Reading event window from file: 0.3227s
+Processing: 3795.Reading event window from file: 0.2094s
+Processing: 3800.Reading event window from file: 0.1890s
+Processing: 3805.Reading event window from file: 0.2489s
+Processing: 3810.Reading event window from file: 0.3184s
+Processing: 3815.Reading event window from file: 0.3623s
+Processing: 3820.Reading event window from file: 0.3051s
+Processing: 3825.Reading event window from file: 0.3582s
+Processing: 3830.Reading event window from file: 0.2103s
+Processing: 3835.Reading event window from file: 0.1573s
+Processing: 3840.Reading event window from file: 0.2632s
+Processing: 3845.Reading event window from file: 0.1944s
+Processing: 3850.Reading event window from file: 0.1076s
+Processing: 3855.Reading event window from file: 0.0936s
+Processing: 3860.Reading event window from file: 0.1942s
+Processing: 3865.Reading event window from file: 0.1578s
+Processing: 3870.Reading event window from file: 0.2410s
+Processing: 3875.Reading event window from file: 0.2037s
+Processing: 3880.Reading event window from file: 0.2441s
+Processing: 3885.Reading event window from file: 0.1899s
+Processing: 3890.Reading event window from file: 0.1413s
+Processing: 3895.Reading event window from file: 0.1502s
+Processing: 3900.Reading event window from file: 0.0795s
+Processing: 3905.Reading event window from file: 0.1038s
+Processing: 3910.Reading event window from file: 0.0854s
+Processing: 3915.Reading event window from file: 0.1470s
+Processing: 3920.Reading event window from file: 0.3072s
+Processing: 3925.Reading event window from file: 0.2052s
+Processing: 3930.Reading event window from file: 0.2992s
+Processing: 3935.Reading event window from file: 0.1577s
+Processing: 3940.Reading event window from file: 0.1315s
+Processing: 3945.Reading event window from file: 0.0836s
+Processing: 3950.Reading event window from file: 0.1048s
+Processing: 3955.Reading event window from file: 0.1833s
+Processing: 3960.Reading event window from file: 0.2586s
+Processing: 3965.Reading event window from file: 0.2478s
+Processing: 3970.Reading event window from file: 0.2258s
+Processing: 3975.Reading event window from file: 0.4428s
+Processing: 3980.Reading event window from file: 0.3462s
+Processing: 3985.Reading event window from file: 0.1713s
+Processing: 3990.Reading event window from file: 0.3525s
+Processing: 3995.Reading event window from file: 0.3914s
+Processing: 4000.Reading event window from file: 0.3614s
+Processing: 4005.Reading event window from file: 0.4181s
+Processing: 4010.Reading event window from file: 0.3488s
+Processing: 4015.Reading event window from file: 0.1664s
+Processing: 4020.Reading event window from file: 0.2802s
+Processing: 4025.Reading event window from file: 0.2154s
+Processing: 4030.Reading event window from file: 0.3986s
+Processing: 4035.Reading event window from file: 0.3197s
+Processing: 4040.Reading event window from file: 0.4946s
+Processing: 4045.Reading event window from file: 0.5215s
+Processing: 4050.Reading event window from file: 0.2272s
+Processing: 4055.Reading event window from file: 0.1361s
+Processing: 4060.Reading event window from file: 0.1803s
+Processing: 4065.Reading event window from file: 0.2555s
+Processing: 4070.Reading event window from file: 0.4201s
+Processing: 4075.Reading event window from file: 0.4968s
+Processing: 4080.Reading event window from file: 0.3891s
+Processing: 4085.Reading event window from file: 0.2881s
+Processing: 4090.Reading event window from file: 0.2190s
+Processing: 4095.Reading event window from file: 0.3475s
+Processing: 4100.Reading event window from file: 0.2535s
+Processing: 4105.Reading event window from file: 0.3497s
+Processing: 4110.Reading event window from file: 0.1305s
+Processing: 4115.Reading event window from file: 0.4676s
+Processing: 4120.Reading event window from file: 0.4461s
+Processing: 4125.Reading event window from file: 0.3180s
+Processing: 4130.Reading event window from file: 0.2052s
+Processing: 4135.Reading event window from file: 0.1561s
+Processing: 4140.Reading event window from file: 0.3532s
+Processing: 4145.Reading event window from file: 0.5537s
+Processing: 4150.Reading event window from file: 0.3431s
+Processing: 4155.Reading event window from file: 0.3429s
+Processing: 4160.Reading event window from file: 0.2329s
+Processing: 4165.Reading event window from file: 0.5204s
+Processing: 4170.Reading event window from file: 0.3792s
+Processing: 4175.Reading event window from file: 0.4102s
+Processing: 4180.Reading event window from file: 0.2155s
+Processing: 4185.Reading event window from file: 0.1795s
+Processing: 4190.Reading event window from file: 0.1928s
+Processing: 4195.Reading event window from file: 0.2867s
+Processing: 4200.Reading event window from file: 0.2857s
+Processing: 4205.Reading event window from file: 0.2857s
+Processing: 4210.Reading event window from file: 0.2216s
+Processing: 4215.Reading event window from file: 0.0661s
+Processing: 4220.Reading event window from file: 0.1855s
+Processing: 4225.Reading event window from file: 0.2368s
+Processing: 4230.Reading event window from file: 0.2188s
+Processing: 4235.Reading event window from file: 0.1713s
+Processing: 4240.Reading event window from file: 0.2132s
+Processing: 4245.Reading event window from file: 0.3687s
+Processing: 4250.Reading event window from file: 0.3211s
+Processing: 4255.Reading event window from file: 0.2212s
+Processing: 4260.Reading event window from file: 0.1220s
+Processing: 4265.Reading event window from file: 0.4217s
+Processing: 4270.Reading event window from file: 0.5501s
+Processing: 4275.Reading event window from file: 0.3541s
+Processing: 4280.Reading event window from file: 0.3184s
+Processing: 4285.Reading event window from file: 0.4206s
+Processing: 4290.Reading event window from file: 0.4205s
+Processing: 4295.Reading event window from file: 0.3203s
+Processing: 4300.Reading event window from file: 0.3220s
+Processing: 4305.Reading event window from file: 0.4202s
+Processing: 4310.Reading event window from file: 0.4258s
+Processing: 4315.Reading event window from file: 0.3504s
+Processing: 4320.Reading event window from file: 0.4171s
+Processing: 4325.Reading event window from file: 0.4443s
+Processing: 4330.Reading event window from file: 0.2952s
+Processing: 4335.Reading event window from file: 0.2113s
+Processing: 4340.Reading event window from file: 0.2390s
+Processing: 4345.Reading event window from file: 0.4476s
+Processing: 4350.Reading event window from file: 0.3531s
+Processing: 4355.Reading event window from file: 0.4010s
+Processing: 4360.Reading event window from file: 0.4954s
+Processing: 4365.Reading event window from file: 0.3506s
+Processing: 4370.Reading event window from file: 0.1928s
+Processing: 4375.Reading event window from file: 0.2643s
+Processing: 4380.Reading event window from file: 0.4333s
+Processing: 4385.Reading event window from file: 0.2096s
+Processing: 4390.Reading event window from file: 0.3903s
+Processing: 4395.Reading event window from file: 0.3058s
+Processing: 4400.Reading event window from file: 0.2188s
+Processing: 4405.Reading event window from file: 0.2142s
+Processing: 4410.Reading event window from file: 0.1725s
+Processing: 4415.Reading event window from file: 0.1984s
+Processing: 4420.Reading event window from file: 0.2229s
+Processing: 4425.Reading event window from file: 0.1032s
+Processing: 4430.Reading event window from file: 0.2214s
+Processing: 4435.Reading event window from file: 0.2896s
+Processing: 4440.Reading event window from file: 0.3602s
+Processing: 4445.Reading event window from file: 0.2318s
+Processing: 4450.Reading event window from file: 0.1532s
+Processing: 4455.Reading event window from file: 0.2270s
+Processing: 4460.Reading event window from file: 0.2744s
+Processing: 4465.Reading event window from file: 0.3101s
+Processing: 4470.Reading event window from file: 0.1598s
+Processing: 4475.Reading event window from file: 0.2345s
+Processing: 4480.Reading event window from file: 0.0852s
+Processing: 4485.Reading event window from file: 0.0854s
+Processing: 4490.Reading event window from file: 0.0717s
+Processing: 4495.Reading event window from file: 0.1520s
+Processing: 4500.Reading event window from file: 0.1502s
+Processing: 4505.Reading event window from file: 0.1051s
+Processing: 4510.Reading event window from file: 0.1422s
+Processing: 4515.Reading event window from file: 0.0875s
+Processing: 4520.Reading event window from file: 0.1048s
+Processing: 4525.Reading event window from file: 0.0685s
+Processing: 4530.Reading event window from file: 0.0571s
+Processing: 4535.Reading event window from file: 0.0300s
+Processing: 4540.Reading event window from file: 0.0477s
+Processing: 4545.Reading event window from file: 0.0629s
+Processing: 4550.Reading event window from file: 0.0813s
+Processing: 4555.Reading event window from file: 0.1696s
+Processing: 4560.Reading event window from file: 0.2000s
+Processing: 4565.Reading event window from file: 0.2995s
+Processing: 4570.Reading event window from file: 0.3179s
+Processing: 4575.Reading event window from file: 0.1617s
+Processing: 4580.Reading event window from file: 0.1532s
+Processing: 4585.Reading event window from file: 0.1892s
+Processing: 4590.Reading event window from file: 0.0665s
+Processing: 4595.Reading event window from file: 0.0884s
+Processing: 4600.Reading event window from file: 0.0592s
+Processing: 4605.Reading event window from file: 0.1216s
+Processing: 4610.Reading event window from file: 0.0719s
+Processing: 4615.Reading event window from file: 0.0879s
+Processing: 4620.Reading event window from file: 0.1080s
+Processing: 4625.Reading event window from file: 0.0889s
+Processing: 4630.Reading event window from file: 0.0409s
+Processing: 4635.Reading event window from file: 0.0631s
+Processing: 4640.Reading event window from file: 0.0573s
+Processing: 4645.Reading event window from file: 0.0906s
+Processing: 4650.Reading event window from file: 0.0975s
+Processing: 4655.Reading event window from file: 0.1650s
+Processing: 4660.Reading event window from file: 0.2202s
+Processing: 4665.Reading event window from file: 0.2029s
+Processing: 4670.Reading event window from file: 0.1794s
+Processing: 4675.Reading event window from file: 0.1817s
+Processing: 4680.Reading event window from file: 0.1179s
+Processing: 4685.Reading event window from file: 0.1223s
+Processing: 4690.Reading event window from file: 0.2874s
+Processing: 4695.Reading event window from file: 0.2082s
+Processing: 4700.Reading event window from file: 0.1614s
+Processing: 4705.Reading event window from file: 0.1156s
+Processing: 4710.Reading event window from file: 0.0971s
+Processing: 4715.Reading event window from file: 0.1329s
+Processing: 4720.Reading event window from file: 0.1057s
+Processing: 4725.Reading event window from file: 0.0909s
+Processing: 4730.Reading event window from file: 0.1658s
+Processing: 4735.Reading event window from file: 0.2390s
+Processing: 4740.Reading event window from file: 0.2441s
+Processing: 4745.Reading event window from file: 0.3035s
+Processing: 4750.Reading event window from file: 0.3492s
+Processing: 4755.Reading event window from file: 0.3230s
+Processing: 4760.Reading event window from file: 0.2436s
+Processing: 4765.Reading event window from file: 0.1110s
+Processing: 4770.Reading event window from file: 0.0854s
+Processing: 4775.Reading event window from file: 0.0712s
+Processing: 4780.Reading event window from file: 0.0874s
+Processing: 4785.Reading event window from file: 0.1412s
+Processing: 4790.Reading event window from file: 0.0951s
+Processing: 4795.Reading event window from file: 0.1258s
+Processing: 4800.Reading event window from file: 0.1231s
+Processing: 4805.Reading event window from file: 0.0729s
+Processing: 4810.Reading event window from file: 0.1043s
+Processing: 4815.Reading event window from file: 0.0982s
+Processing: 4820.Reading event window from file: 0.0876s
+Processing: 4825.Reading event window from file: 0.0891s
+Processing: 4830.Reading event window from file: 0.0506s
+Processing: 4835.Reading event window from file: 0.0760s
+Processing: 4840.Reading event window from file: 0.0691s
+Processing: 4845.Reading event window from file: 0.0902s
+Processing: 4850.Reading event window from file: 0.0713s
+Processing: 4855.Reading event window from file: 0.1439s
+Processing: 4860.Reading event window from file: 0.1080s
+Processing: 4865.Reading event window from file: 0.1385s
+Processing: 4870.Reading event window from file: 0.0574s
+Processing: 4875.Reading event window from file: 0.0912s
+Processing: 4880.Reading event window from file: 0.1249s
+Processing: 4885.Reading event window from file: 0.1187s
+Processing: 4890.Reading event window from file: 0.0960s
+Processing: 4895.Reading event window from file: 0.1298s
+Processing: 4900.Reading event window from file: 0.0896s
+Processing: 4905.Reading event window from file: 0.0979s
+Processing: 4910.Reading event window from file: 0.1443s
+Processing: 4915.Reading event window from file: 0.1629s
+Processing: 4920.Reading event window from file: 0.1866s
+Processing: 4925.Reading event window from file: 0.1837s
+Processing: 4930.Reading event window from file: 0.1570s
+Processing: 4935.Reading event window from file: 0.1199s
+Processing: 4940.Reading event window from file: 0.0626s
+Processing: 4945.Reading event window from file: 0.0922s
+Processing: 4950.Reading event window from file: 0.0761s
+Processing: 4955.Reading event window from file: 0.2084s
+Processing: 4960.Reading event window from file: 0.2237s
+Processing: 4965.Reading event window from file: 0.2585s
+Processing: 4970.Reading event window from file: 0.2518s
+Processing: 4975.Reading event window from file: 0.2630s
+Processing: 4980.Reading event window from file: 0.1416s
+Processing: 4985.Reading event window from file: 0.0856s
+Processing: 4990.Reading event window from file: 0.0928s
+Processing: 4995.Reading event window from file: 0.0459s
+Processing: 5000.Reading event window from file: 0.0537s
+Processing: 5005.Reading event window from file: 0.0613s
+Processing: 5010.Reading event window from file: 0.0317s
+Processing: 5015.Reading event window from file: 0.0984s
+Processing: 5020.Reading event window from file: 0.2291s
+Processing: 5025.Reading event window from file: 0.2378s
+Processing: 5030.Reading event window from file: 0.1920s
+Processing: 5035.Reading event window from file: 0.3019s
+Processing: 5040.Reading event window from file: 0.1513s
+Processing: 5045.Reading event window from file: 0.1546s
+Processing: 5050.Reading event window from file: 0.1936s
+Processing: 5055.Reading event window from file: 0.1654s
+Processing: 5060.Reading event window from file: 0.2138s
+Processing: 5065.Reading event window from file: 0.3078s
+Processing: 5070.Reading event window from file: 0.2017s
+Processing: 5075.Reading event window from file: 0.3058s
+Processing: 5080.Reading event window from file: 0.1965s
+Processing: 5085.Reading event window from file: 0.1180s
+Processing: 5090.Reading event window from file: 0.0747s
+Processing: 5095.Reading event window from file: 0.1337s
+Processing: 5100.Reading event window from file: 0.1856s
+Processing: 5105.Reading event window from file: 0.1880s
+Processing: 5110.Reading event window from file: 0.1474s
+Processing: 5115.Reading event window from file: 0.0964s
+Processing: 5120.Reading event window from file: 0.0802s
+Processing: 5125.Reading event window from file: 0.1409s
+Processing: 5130.Reading event window from file: 0.1000s
+Processing: 5135.Reading event window from file: 0.0785s
+Processing: 5140.Reading event window from file: 0.0935s
+Processing: 5145.Reading event window from file: 0.1184s
+Processing: 5150.Reading event window from file: 0.0906s
+Processing: 5155.Reading event window from file: 0.2407s
+Processing: 5160.Reading event window from file: 0.3100s
+Processing: 5165.Reading event window from file: 0.2341s
+Processing: 5170.Reading event window from file: 0.2515s
+Processing: 5175.Reading event window from file: 0.2284s
+Processing: 5180.Reading event window from file: 0.1193s
+Processing: 5185.Reading event window from file: 0.1375s
+Processing: 5190.Reading event window from file: 0.1550s
+Processing: 5195.Reading event window from file: 0.0942s
+Processing: 5200.Reading event window from file: 0.0946s
+Processing: 5205.Reading event window from file: 0.1244s
+Processing: 5210.Reading event window from file: 0.1194s
+Processing: 5215.Reading event window from file: 0.0838s
+Processing: 5220.Reading event window from file: 0.1196s
+Processing: 5225.Reading event window from file: 0.1716s
+Processing: 5230.Reading event window from file: 0.1765s
+Processing: 5235.Reading event window from file: 0.2260s
+Processing: 5240.Reading event window from file: 0.2573s
+Processing: 5245.Reading event window from file: 0.4274s
+Processing: 5250.Reading event window from file: 0.4231s
+Processing: 5255.Reading event window from file: 0.2665s
+Processing: 5260.Reading event window from file: 0.2896s
+Processing: 5265.Reading event window from file: 0.2591s
+Processing: 5270.Reading event window from file: 0.1553s
+Processing: 5275.Reading event window from file: 0.1307s
+Processing: 5280.Reading event window from file: 0.0436s
+Processing: 5285.Reading event window from file: 0.0589s
+Processing: 5290.Reading event window from file: 0.1012s
+Processing: 5295.Reading event window from file: 0.1330s
+Processing: 5300.Reading event window from file: 0.1291s
+Processing: 5305.Reading event window from file: 0.0958s
+Processing: 5310.Reading event window from file: 0.1056s
+Processing: 5315.Reading event window from file: 0.0479s
+Processing: 5320.Reading event window from file: 0.0640s
+Processing: 5325.Reading event window from file: 0.0787s
+Processing: 5330.Reading event window from file: 0.0600s
+Processing: 5335.Reading event window from file: 0.0946s
+Processing: 5340.Reading event window from file: 0.0356s
+Processing: 5345.Reading event window from file: 0.0439s
+Processing: 5350.Reading event window from file: 0.1206s
+Processing: 5355.Reading event window from file: 0.0573s
+Processing: 5360.Reading event window from file: 0.1045s
+Processing: 5365.Reading event window from file: 0.1549s
+Processing: 5370.Reading event window from file: 0.2994s
+Processing: 5375.Reading event window from file: 0.3121s
+Processing: 5380.Reading event window from file: 0.2989s
+Processing: 5385.Reading event window from file: 0.1553s
+Processing: 5390.Reading event window from file: 0.1154s
+Processing: 5395.Reading event window from file: 0.1912s
+Processing: 5400.Reading event window from file: 0.0863s
+Processing: 5405.Reading event window from file: 0.1086s
+Processing: 5410.Reading event window from file: 0.0718s
+Processing: 5415.Reading event window from file: 0.0994s
+Processing: 5420.Reading event window from file: 0.0438s
+Processing: 5425.Reading event window from file: 0.0760s
+Processing: 5430.Reading event window from file: 0.0529s
+Processing: 5435.Reading event window from file: 0.1171s
+Processing: 5440.Reading event window from file: 0.1722s
+Processing: 5445.Reading event window from file: 0.1530s
+Processing: 5450.Reading event window from file: 0.1730s
+Processing: 5455.Reading event window from file: 0.1386s
+Processing: 5460.Reading event window from file: 0.0752s
+Processing: 5465.Reading event window from file: 0.1165s
+Processing: 5470.Reading event window from file: 0.1869s
+Processing: 5475.Reading event window from file: 0.1722s
+Processing: 5480.Reading event window from file: 0.1529s
+Processing: 5485.Reading event window from file: 0.1579s
+Processing: 5490.Reading event window from file: 0.2052s
+Processing: 5495.Reading event window from file: 0.1995s
+Processing: 5500.Reading event window from file: 0.1845s
+Processing: 5505.Reading event window from file: 0.1985s
+Processing: 5510.Reading event window from file: 0.1410s
+Processing: 5515.Reading event window from file: 0.1349s
+Processing: 5520.Reading event window from file: 0.0742s
+Processing: 5525.Reading event window from file: 0.0838s
+Processing: 5530.Reading event window from file: 0.0578s
+Processing: 5535.Reading event window from file: 0.1235s
+Processing: 5540.Reading event window from file: 0.1175s
+Processing: 5545.Reading event window from file: 0.0767s
+Processing: 5550.Reading event window from file: 0.0855s
+Processing: 5555.Reading event window from file: 0.2054s
+Processing: 5560.Reading event window from file: 0.2229s
+Processing: 5565.Reading event window from file: 0.1791s
+Processing: 5570.Reading event window from file: 0.1226s
+Processing: 5575.Reading event window from file: 0.1861s
+Processing: 5580.Reading event window from file: 0.3361s
+Processing: 5585.Reading event window from file: 0.4141s
+Processing: 5590.Reading event window from file: 0.2222s
+Processing: 5595.Reading event window from file: 0.3299s
+Processing: 5600.Reading event window from file: 0.2397s
+Processing: 5605.Reading event window from file: 0.3704s
+Processing: 5610.Reading event window from file: 0.3113s
+Processing: 5615.Reading event window from file: 0.2079s
+Processing: 5620.Reading event window from file: 0.0867s
+Processing: 5625.Reading event window from file: 0.0635s
+Processing: 5630.Reading event window from file: 0.1539s
+Processing: 5635.Reading event window from file: 0.2756s
+Processing: 5640.Reading event window from file: 0.4536s
+Processing: 5645.Reading event window from file: 0.3072s
+Processing: 5650.Reading event window from file: 0.0641s
+Processing: 5655.Reading event window from file: 0.2694s
+Processing: 5660.Reading event window from file: 0.4167s
+Processing: 5665.Reading event window from file: 0.2711s
+Processing: 5670.Reading event window from file: 0.1383s
+Processing: 5675.Reading event window from file: 0.0572s
+Processing: 5680.Reading event window from file: 0.1855s
+Processing: 5685.Reading event window from file: 0.3330s
+Processing: 5690.Reading event window from file: 0.3273s
+Processing: 5695.Reading event window from file: 0.1181s
+Processing: 5700.Reading event window from file: 0.2665s
+Processing: 5705.Reading event window from file: 0.3363s
+Processing: 5710.Reading event window from file: 0.2931s
+Processing: 5715.Reading event window from file: 0.1753s
+Processing: 5720.Reading event window from file: 0.1051s
+Processing: 5725.Reading event window from file: 0.2984s
+Processing: 5730.Reading event window from file: 0.4740s
+Processing: 5735.Reading event window from file: 0.3358s
+Processing: 5740.Reading event window from file: 0.2413s
+Processing: 5745.Reading event window from file: 0.3834s
+Processing: 5750.Reading event window from file: 0.2688s
+Processing: 5755.Reading event window from file: 0.1474s
+Processing: 5760.Reading event window from file: 0.3060s
+Processing: 5765.Reading event window from file: 0.3978s
+Processing: 5770.Reading event window from file: 0.4179s
+Processing: 5775.Reading event window from file: 0.4076s
+Processing: 5780.Reading event window from file: 0.3666s
+Processing: 5785.Reading event window from file: 0.3436s
+Processing: 5790.Reading event window from file: 0.3545s
+Processing: 5795.Reading event window from file: 0.3822s
+Processing: 5800.Reading event window from file: 0.3564s
+Processing: 5805.Reading event window from file: 0.2355s
+Processing: 5810.Reading event window from file: 0.4722s
+Processing: 5815.Reading event window from file: 0.5591s
+Processing: 5820.Reading event window from file: 0.3282s
+Processing: 5825.Reading event window from file: 0.1424s
+Processing: 5830.Reading event window from file: 0.2285s
+Processing: 5835.Reading event window from file: 0.4912s
+Processing: 5840.Reading event window from file: 0.5154s
+Processing: 5845.Reading event window from file: 0.1977s
+Processing: 5850.Reading event window from file: 0.2479s
+Processing: 5855.Reading event window from file: 0.4323s
+Processing: 5860.Reading event window from file: 0.4880s
+Processing: 5865.Reading event window from file: 0.2089s
+Processing: 5870.Reading event window from file: 0.3206s
+Processing: 5875.Reading event window from file: 0.4130s
+Processing: 5880.Reading event window from file: 0.2687s
+Processing: 5885.Reading event window from file: 0.4044s
+Processing: 5890.Reading event window from file: 0.3351s
+Processing: 5895.Reading event window from file: 0.1951s
+Processing: 5900.Reading event window from file: 0.2073s
+Processing: 5905.Reading event window from file: 0.1404s
+Processing: 5910.Reading event window from file: 0.1141s
+Processing: 5915.Reading event window from file: 0.1432s
+Processing: 5920.Reading event window from file: 0.0918s
+Processing: 5925.Reading event window from file: 0.1331s
+Processing: 5930.Reading event window from file: 0.1668s
+Processing: 5935.Reading event window from file: 0.1987s
+Processing: 5940.Reading event window from file: 0.0909s
+Processing: 5945.Reading event window from file: 0.1685s
+Processing: 5950.Reading event window from file: 0.2054s
+Processing: 5955.Reading event window from file: 0.1293s
+Processing: 5960.Reading event window from file: 0.1483s
+Processing: 5965.Reading event window from file: 0.1577s
+Processing: 5970.Reading event window from file: 0.2103s
+Processing: 5975.Reading event window from file: 0.2553s
+Processing: 5980.Reading event window from file: 0.2298s
+Processing: 5985.Reading event window from file: 0.3230s
+Processing: 5990.Reading event window from file: 0.2625s
+Processing: 5995.Reading event window from file: 0.2348s
+Processing: 6000.Reading event window from file: 0.1996s
+Processing: 6005.Reading event window from file: 0.2638s
+Processing: 6010.Reading event window from file: 0.2526s
+Processing: 6015.Reading event window from file: 0.2214s
+Processing: 6020.Reading event window from file: 0.2494s
+Processing: 6025.Reading event window from file: 0.2664s
+Processing: 6030.Reading event window from file: 0.2005s
+Processing: 6035.Reading event window from file: 0.4412s
+Processing: 6040.Reading event window from file: 0.3177s
+Processing: 6045.Reading event window from file: 0.2966s
+Processing: 6050.Reading event window from file: 0.1989s
+Processing: 6055.Reading event window from file: 0.1896s
+Processing: 6060.Reading event window from file: 0.2507s
+Processing: 6065.Reading event window from file: 0.2411s
+Processing: 6070.Reading event window from file: 0.2881s
+Processing: 6075.Reading event window from file: 0.2160s
+Processing: 6080.Reading event window from file: 0.1669s
+Processing: 6085.Reading event window from file: 0.0698s
+Processing: 6090.Reading event window from file: 0.1504s
+Processing: 6095.Reading event window from file: 0.2434s
+Processing: 6100.Reading event window from file: 0.2773s
+Processing: 6105.Reading event window from file: 0.1543s
+Processing: 6110.Reading event window from file: 0.2185s
+Processing: 6115.Reading event window from file: 0.1696s
+Processing: 6120.Reading event window from file: 0.1765s
+Processing: 6125.Reading event window from file: 0.1453s
+Processing: 6130.Reading event window from file: 0.1487s
+Processing: 6135.Reading event window from file: 0.2696s
+Processing: 6140.Reading event window from file: 0.2815s
+Processing: 6145.Reading event window from file: 0.3532s
+Processing: 6150.Reading event window from file: 0.3391s
+Processing: 6155.Reading event window from file: 0.1995s
+Processing: 6160.Reading event window from file: 0.2546s
+Processing: 6165.Reading event window from file: 0.4182s
+Processing: 6170.Reading event window from file: 0.3705s
+Processing: 6175.Reading event window from file: 0.2077s
+Processing: 6180.Reading event window from file: 0.3908s
+Processing: 6185.Reading event window from file: 0.4557s
+Processing: 6190.Reading event window from file: 0.4829s
+Processing: 6195.Reading event window from file: 0.2900s
+Processing: 6200.Reading event window from file: 0.2104s
+Processing: 6205.Reading event window from file: 0.3502s
+Processing: 6210.Reading event window from file: 0.3089s
+Processing: 6215.Reading event window from file: 0.2714s
+Processing: 6220.Reading event window from file: 0.2018s
+Processing: 6225.Reading event window from file: 0.2355s
+Processing: 6230.Reading event window from file: 0.2695s
+Processing: 6235.Reading event window from file: 0.3306s
+Processing: 6240.Reading event window from file: 0.3251s
+Processing: 6245.Reading event window from file: 0.2594s
+Processing: 6250.Reading event window from file: 0.2649s
+Processing: 6255.Reading event window from file: 0.1708s
+Processing: 6260.Reading event window from file: 0.1460s
+Processing: 6265.Reading event window from file: 0.1919s
+Processing: 6270.Reading event window from file: 0.3000s
+Processing: 6275.Reading event window from file: 0.4373s
+Processing: 6280.Reading event window from file: 0.3604s
+Processing: 6285.Reading event window from file: 0.2740s
+Processing: 6290.Reading event window from file: 0.2436s
+Processing: 6295.Reading event window from file: 0.2060s
+Processing: 6300.Reading event window from file: 0.1586s
+Processing: 6305.Reading event window from file: 0.1345s
+Processing: 6310.Reading event window from file: 0.0887s
+Processing: 6315.Reading event window from file: 0.1055s
+Processing: 6320.Reading event window from file: 0.2549s
+Processing: 6325.Reading event window from file: 0.4146s
+Processing: 6330.Reading event window from file: 0.3625s
+Processing: 6335.Reading event window from file: 0.3133s
+Processing: 6340.Reading event window from file: 0.3099s
+Processing: 6345.Reading event window from file: 0.3278s
+Processing: 6350.Reading event window from file: 0.2323s
+Processing: 6355.Reading event window from file: 0.1513s
+Processing: 6360.Reading event window from file: 0.2249s
+Processing: 6365.Reading event window from file: 0.2191s
+Processing: 6370.Reading event window from file: 0.2721s
+Processing: 6375.Reading event window from file: 0.1725s
+Processing: 6380.Reading event window from file: 0.1368s
+Processing: 6385.Reading event window from file: 0.2158s
+Processing: 6390.Reading event window from file: 0.1932s
+Processing: 6395.Reading event window from file: 0.2026s
+Processing: 6400.Reading event window from file: 0.2496s
+Processing: 6405.Reading event window from file: 0.1110s
+Processing: 6410.Reading event window from file: 0.1816s
+Processing: 6415.Reading event window from file: 0.1974s
+Processing: 6420.Reading event window from file: 0.1298s
+Processing: 6425.Reading event window from file: 0.1703s
+Processing: 6430.Reading event window from file: 0.2451s
+Processing: 6435.Reading event window from file: 0.0851s
+Processing: 6440.Reading event window from file: 0.1856s
+Processing: 6445.Reading event window from file: 0.2667s
+Processing: 6450.Reading event window from file: 0.1710s
+Processing: 6455.Reading event window from file: 0.2776s
+Processing: 6460.Reading event window from file: 0.2463s
+Processing: 6465.Reading event window from file: 0.2511s
+Processing: 6470.Reading event window from file: 0.1993s
+Processing: 6475.Reading event window from file: 0.1385s
+Processing: 6480.Reading event window from file: 0.1765s
+Processing: 6485.Reading event window from file: 0.2413s
+Processing: 6490.Reading event window from file: 0.2489s
+Processing: 6495.Reading event window from file: 0.2606s
+Processing: 6500.Reading event window from file: 0.3066s
+Processing: 6505.Reading event window from file: 0.2126s
+Processing: 6510.Reading event window from file: 0.1444s
+Processing: 6515.Reading event window from file: 0.2197s
+Processing: 6520.Reading event window from file: 0.2650s
+Processing: 6525.Reading event window from file: 0.1823s
+Processing: 6530.Reading event window from file: 0.1808s
+Processing: 6535.Reading event window from file: 0.2163s
+Processing: 6540.Reading event window from file: 0.2364s
+Processing: 6545.Reading event window from file: 0.1994s
+Processing: 6550.Reading event window from file: 0.1561s
+Processing: 6555.Reading event window from file: 0.1807s
+Processing: 6560.Reading event window from file: 0.1775s
+Processing: 6565.Reading event window from file: 0.1521s
+Processing: 6570.Reading event window from file: 0.2720s
+Processing: 6575.Reading event window from file: 0.3461s
+Processing: 6580.Reading event window from file: 0.2449s
+Processing: 6585.Reading event window from file: 0.2396s
+Processing: 6590.Reading event window from file: 0.1780s
+Processing: 6595.Reading event window from file: 0.1363s
+Processing: 6600.Reading event window from file: 0.1348s
+Processing: 6605.Reading event window from file: 0.1639s
+Processing: 6610.Reading event window from file: 0.2268s
+Processing: 6615.Reading event window from file: 0.2463s
+Processing: 6620.Reading event window from file: 0.2431s
+Processing: 6625.Reading event window from file: 0.2822s
+Processing: 6630.Reading event window from file: 0.2424s
+Processing: 6635.Reading event window from file: 0.2062s
+Processing: 6640.Reading event window from file: 0.1163s
+Processing: 6645.Reading event window from file: 0.1682s
+Processing: 6650.Reading event window from file: 0.0956s
+Processing: 6655.Reading event window from file: 0.1742s
+Processing: 6660.Reading event window from file: 0.1743s
+Processing: 6665.Reading event window from file: 0.1682s
+Processing: 6670.Reading event window from file: 0.3081s
+Processing: 6675.Reading event window from file: 0.2881s
+Processing: 6680.Reading event window from file: 0.1871s
+Processing: 6685.Reading event window from file: 0.1888s
+Processing: 6690.Reading event window from file: 0.1451s
+Processing: 6695.Reading event window from file: 0.1074s
+Processing: 6700.Reading event window from file: 0.1931s
+Processing: 6705.Reading event window from file: 0.2632s
+Processing: 6710.Reading event window from file: 0.2970s
+Processing: 6715.Reading event window from file: 0.2214s
+Processing: 6720.Reading event window from file: 0.2183s
+Processing: 6725.Reading event window from file: 0.3146s
+Processing: 6730.Reading event window from file: 0.1281s
+Processing: 6735.Reading event window from file: 0.0762s
+Processing: 6740.Reading event window from file: 0.0834s
+Processing: 6745.Reading event window from file: 0.2237s
+Processing: 6750.Reading event window from file: 0.1852s
+Processing: 6755.Reading event window from file: 0.1516s
+Processing: 6760.Reading event window from file: 0.1430s
+Processing: 6765.Reading event window from file: 0.2146s
+Processing: 6770.Reading event window from file: 0.2072s
+Processing: 6775.Reading event window from file: 0.2214s
+Processing: 6780.Reading event window from file: 0.1173s
+Processing: 6785.Reading event window from file: 0.0566s
+Processing: 6790.Reading event window from file: 0.0172s
