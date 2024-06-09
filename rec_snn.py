@@ -10,6 +10,7 @@ import pandas as pd
 from utils.load_hdf import get_dataset
 from utils.representations import VoxelGrid
 from utils.util import events_to_voxel_grid_new
+from utils.util import FixedDurationEventReader
 
 torch.backends.cudnn.benchmark = True
 _seed_ = 2020
@@ -47,7 +48,8 @@ def main(model_name:str, pretrain_models:str, event_files:str, save_path:str, he
     #                                 dtype={'t': np.float64, 'x': np.int16, 'y': np.int16, 'pol': np.int16},
     #                                 engine='c',
     #                                 skiprows=10, chunksize=N, nrows=None)
-    event_tensor_iterator = get_dataset(event_files, 640, 480, 0.5)
+    # event_tensor_iterator = get_dataset(event_files, 640, 480, 0.5)
+    event_tensor_iterator = FixedDurationEventReader(event_files, 44, 0.015952)
 
     out_pattern_img = 'result-idx{:04d}{:04d}.bmp'
     states = None
