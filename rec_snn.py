@@ -11,6 +11,7 @@ from utils.load_hdf import get_dataset
 from utils.representations import VoxelGrid
 from utils.util import events_to_voxel_grid_new
 from utils.util import FixedDurationEventReader
+from utils.timers import CudaTimer
 
 torch.backends.cudnn.benchmark = True
 _seed_ = 2020
@@ -57,41 +58,50 @@ def main(model_name:str, pretrain_models:str, event_files:str, save_path:str, he
     j = 0
     num_bins = 5
     voxel_grid = VoxelGrid(num_bins, height, width, False)
-    for event in event_tensor_iterator:
-        # event_tensor = events_to_voxel_grid(event.values,
-        #                                     num_bins=num_bins,
-        #                                     width=width,
-        #                                     height=height)
-        # event_tensor = events_to_voxel_grid(event,
-        #                                     num_bins=num_bins,
-        #                                     width=width,
-        #                                     height=height)
-        # event_tensor = torch.from_numpy(event_tensor)
-        event_tensor = events_to_voxel_grid_new(event[:, 1], event[:, 2], event[:, 3], event[:, 0], voxel_grid, 'gpu')
-        
-        event_tensor = event_tensor[np.newaxis,:,:,:].to(device)
-        event_tensor = crop.pad(event_tensor)
-        mean, stddev = event_tensor[event_tensor != 0].mean(), event_tensor[event_tensor != 0].std()
-        event_tensor[event_tensor != 0] = (event_tensor[event_tensor != 0] - mean) / stddev
+    with Timer('Processing entire dataset'):
+        for event in event_tensor_iterator:
+            # event_tensor = events_to_voxel_grid(event.values,
+            #                                     num_bins=num_bins,
+            #                                     width=width,
+            #                                     height=height)
+            # event_tensor = events_to_voxel_grid(event,
+            #                                     num_bins=num_bins,
+            #                                     width=width,
+            #                                     height=height)
+            # event_tensor = torch.from_numpy(event_tensor)
+            with Timer('Building event tensor'):
+                event_tensor = events_to_voxel_grid_new(event[:, 1], event[:, 2], event[:, 3], event[:, 0], voxel_grid, device)
+            with CudaTimer('Reconstruction (Preproceesing)'):
+                with CudaTimer('NumPy (CPU) -> Tensor (GPU)'):
+                    event_tensor = event_tensor[np.newaxis,:,:,:].to(device)
+                
+                event_tensor = crop.pad(event_tensor)
+                with CudaTimer('Normalization'):
+                    mean, stddev = event_tensor[event_tensor != 0].mean(), event_tensor[event_tensor != 0].std()
+                    event_tensor[event_tensor != 0] = (event_tensor[event_tensor != 0] - mean) / stddev
 
-        for j in range(num_bins):
-            event_input = event_tensor[:,j,:,:].unsqueeze(dim=1)
-            with torch.no_grad():
-                if model_name == 'EVSNN_LIF_final':
-                    membrane_potential = net(event_input, states)
-                    states = membrane_potential
-                elif model_name == 'PAEVSNN_LIF_AMPLIF_final':
-                    membrane_potential, states = net(event_input, states)
+            for j in range(num_bins):
+                with CudaTimer('Reconstruction (Construction: one bin)'):
+                    event_input = event_tensor[:,j,:,:].unsqueeze(dim=1)
+                    with torch.no_grad():
+                        if model_name == 'EVSNN_LIF_final':
+                            with CudaTimer('Inference'):
+                                membrane_potential = net(event_input, states)
+                                states = membrane_potential
+                        elif model_name == 'PAEVSNN_LIF_AMPLIF_final':
+                            with CudaTimer('Inference'):
+                                membrane_potential, states = net(event_input, states)
+                    with CudaTimer('Tensor (GPU) -> NumPy (CPU)'):
+                        result = (membrane_potential[0, 0, crop.iy0:crop.iy1,crop.ix0:crop.ix1].cpu()).detach().numpy()
+                    result = result.reshape(height, width)
+                result = normalize_image(result)
+                img = Image.fromarray(result*255)
+                img=img.convert("L")
+                #img = img.rotate(180,expand=True)
+                img.save(os.path.join(savepath, out_pattern_img.format(i,j)))
 
-            result = (membrane_potential[0, 0, crop.iy0:crop.iy1,crop.ix0:crop.ix1].cpu()).detach().numpy().reshape(height, width)
-            result = normalize_image(result)
-            img = Image.fromarray(result*255)
-            img=img.convert("L")
-            #img = img.rotate(180,expand=True)
-            img.save(os.path.join(savepath, out_pattern_img.format(i,j)))
-
-        print('\rProcessing: {}.'.format(i*num_bins), end='', flush=True)
-        i = i + 1
+            print('\rProcessing: {}.'.format(i*num_bins), end='', flush=True)
+            i = i + 1
 
 if __name__ == '__main__':
 

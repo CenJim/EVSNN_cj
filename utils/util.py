@@ -12,6 +12,7 @@ from torch.nn import ZeroPad2d
 from utils.representations import VoxelGrid
 import zipfile
 from os.path import splitext
+from utils.timers import Timer
 
 class FixedDurationEventReader:
     """
@@ -79,16 +80,16 @@ class FixedDurationEventReader:
 
         raise StopIteration
 
-class Timer:
-    def __init__(self, msg='Time elapsed'):
-        self.msg = msg
-    def __enter__(self):
-        self.start = time.time()
-        return self
-    def __exit__(self, *args):
-        self.end = time.time()
-        duration = self.end - self.start
-        print(f'{self.msg}: {duration:.4f}s')
+# class Timer:
+#     def __init__(self, msg='Time elapsed'):
+#         self.msg = msg
+#     def __enter__(self):
+#         self.start = time.time()
+#         return self
+#     def __exit__(self, *args):
+#         self.end = time.time()
+#         duration = self.end - self.start
+#         print(f'{self.msg}: {duration:.4f}s')
 
 def normalize_image(image, percentile_lower=1, percentile_upper=99):
     mini, maxi = np.percentile(image, (percentile_lower, percentile_upper))
@@ -154,7 +155,8 @@ def events_to_voxel_grid_new(x, y, p, t, voxel_grid: VoxelGrid, device: str='cpu
                 torch.from_numpy(x),
                 torch.from_numpy(y),
                 torch.from_numpy(pol),
-                torch.from_numpy(t))
+                torch.from_numpy(t),
+                device)
 
 def optimal_crop_size(max_size, max_subsample_factor, safety_margin=0):
     """ Find the optimal crop size for a given max_size and subsample_factor.
