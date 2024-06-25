@@ -361,8 +361,8 @@ class EVSNN_LIF_final(BasicModel):
     def __init__(self, kwargs = {}):
         super().__init__()
         activation_type =  kwargs['activation_type']
-        mp_activation_type = kwargs['mp_activation_type']
-        spike_connection = kwargs['spike_connection']
+        # mp_activation_type = kwargs['mp_activation_type']
+        # spike_connection = kwargs['spike_connection']
         v_threshold = kwargs['v_threshold']
         v_reset = kwargs['v_reset']
         tau = kwargs['tau']
